@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:74xx1g04
+LIBS:pam2401
 LIBS:ap2161
 LIBS:tusb320la
 LIBS:zener
@@ -172,6 +174,8 @@ F 0 "U3" H 5450 5287 60  0000 C CNN
 F 1 "TUSB320HA" H 5450 5181 60  0000 C CNN
 F 2 "kicad-libs:X2QFN-12" H 5450 5200 60  0001 C CNN
 F 3 "" H 5450 5200 60  0001 C CNN
+F 4 "TUSB320HAIRWBR" H 0   0   60  0001 C CNN "Part Number"
+F 5 "TI" H 0   0   60  0001 C CNN "Manufacturer"
 	1    5450 4650
 	1    0    0    -1  
 $EndComp
@@ -183,6 +187,8 @@ F 0 "J2" H 2550 3465 50  0000 C CNN
 F 1 "USB Type-C Receptacle" H 2550 3374 50  0000 C CNN
 F 2 "kicad-libs:USB-TYPE-C-DX07B024JJ1" H 2550 3350 50  0001 C CNN
 F 3 "" H 2550 3350 50  0001 C CNN
+F 4 "DX07B024JJ2R1500" H 0   0   60  0001 C CNN "Part Number"
+F 5 "JAE" H 0   0   60  0001 C CNN "Manufacturer"
 	1    2550 2650
 	1    0    0    -1  
 $EndComp
@@ -194,6 +200,8 @@ F 0 "J1" H 9900 2400 60  0000 C CNN
 F 1 "BAT" H 9900 2500 60  0000 C CNN
 F 2 "kicad-libs:JST-PH-2-RIGHT-SMD" H 9600 2450 60  0001 C CNN
 F 3 "" H 9600 2450 60  0000 C CNN
+F 4 "S2B-PH-SM4-TB(LF)(SN)" H 0   0   60  0001 C CNN "Part Number"
+F 5 "JST" H 0   0   60  0001 C CNN "Manufacturer"
 	1    9600 2450
 	1    0    0    1   
 $EndComp
@@ -213,9 +221,11 @@ L C C4
 U 1 1 594C344B
 P 8600 2850
 F 0 "C4" H 8673 2796 50  0000 L CNN
-F 1 "10u" H 8673 2705 50  0000 L CNN
+F 1 "4.7u" H 8673 2705 50  0000 L CNN
 F 2 "kicad-libs:SMD-1608" H 8500 3000 60  0001 C CNN
 F 3 "" H 8500 3000 60  0000 C CNN
+F 4 "CL10B475KQ8NQNC" H 0   0   60  0001 C CNN "Part Number"
+F 5 "Samsung" H 0   0   60  0001 C CNN "Manufacturer"
 	1    8600 2850
 	1    0    0    -1  
 $EndComp
@@ -304,6 +314,8 @@ F 0 "U1" H 6450 2437 60  0000 C CNN
 F 1 "AP2161" H 6450 2331 60  0000 C CNN
 F 2 "kicad-libs:SOT-23-5" H 6450 2300 60  0001 C CNN
 F 3 "" H 6450 2300 60  0001 C CNN
+F 4 "AP2161WG-7" H 0   0   60  0001 C CNN "Part Number"
+F 5 "Diodes" H 0   0   60  0001 C CNN "Manufacturer"
 	1    6450 2050
 	-1   0    0    -1  
 $EndComp
@@ -582,6 +594,8 @@ F 0 "C2" H 7973 1896 50  0000 L CNN
 F 1 "120u" H 7973 1805 50  0000 L CNN
 F 2 "kicad-libs:SMD-3528-CP" H 7800 2100 60  0001 C CNN
 F 3 "" H 7800 2100 60  0000 C CNN
+F 4 "TCJB157M006R0055" H 0   0   60  0001 C CNN "Part Number"
+F 5 "AVX" H 0   0   60  0001 C CNN "Manufacturer"
 	1    7900 1950
 	1    0    0    -1  
 $EndComp
@@ -602,9 +616,11 @@ L C C3
 U 1 1 594EACFA
 P 6900 2850
 F 0 "C3" H 6973 2796 50  0000 L CNN
-F 1 "10u" H 6973 2705 50  0000 L CNN
+F 1 "4.7u" H 6973 2705 50  0000 L CNN
 F 2 "kicad-libs:SMD-1608" H 6800 3000 60  0001 C CNN
 F 3 "" H 6800 3000 60  0000 C CNN
+F 4 "CL10B475KQ8NQNC" H 0   0   60  0001 C CNN "Part Number"
+F 5 "Samsung" H 0   0   60  0001 C CNN "Manufacturer"
 	1    6900 2850
 	1    0    0    -1  
 $EndComp
