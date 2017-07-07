@@ -1040,4 +1040,6 @@ Wire Wire Line
 	6650 1650 6650 1700
 Text Label 4450 2050 0    50   ~ 0
 ~PG
+Entry Wire Line
+	11800 7000 11900 7100
 $EndSCHEMATC
