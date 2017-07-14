@@ -1,9 +1,6 @@
-(kicad_pcb (version 20170123) (host pcbnew "(2017-06-02 revision ac9a64a17)-master")
+(kicad_pcb (version 20170123) (host pcbnew "(2017-07-06 revision 885a4c1bc)-master")
 
   (general
-    (links 50)
-    (no_connects 0)
-    (area 136.099999 80.655952 166.675001 99.344047)
     (thickness 1.6)
     (drawings 5)
     (tracks 202)
@@ -13,6 +10,12 @@
   )
 
   (page A4)
+  (title_block
+    (title "USB Type-C LiPo DRP (non-boost)")
+    (date 2017-07-14)
+    (rev A0)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -171,7 +174,7 @@
     (add_net VBUS)
   )
 
-  (module kicad-libs:starfish2-10 (layer B.Cu) (tedit 0) (tstamp 594FBF78)
+  (module kicad-libs:starfish2-10 locked (layer B.Cu) (tedit 0) (tstamp 594FBF78)
     (at 155.75 89.75 270)
     (fp_text reference G*** (at 0 0 270) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
@@ -813,7 +816,7 @@
     (fp_text reference C4 (at 0 -2 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value 10u (at 0 0 90) (layer F.Fab) hide
+    (fp_text value 4.7u (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_line (start -0.75 -1.5) (end 0.75 -1.5) (layer F.Fab) (width 0.1))
@@ -841,7 +844,7 @@
     (fp_text reference C3 (at 0 -2 270) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value 10u (at 0 0 270) (layer F.Fab) hide
+    (fp_text value 4.7u (at 0 0 270) (layer F.Fab) hide
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_line (start 0.5 -0.15) (end 0.5 0.15) (layer F.SilkS) (width 0.2))

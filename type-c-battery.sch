@@ -1,6 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:74xx1g04
-LIBS:pam2401
 LIBS:ap2161
 LIBS:tusb320la
 LIBS:zener
@@ -158,8 +156,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "USB Type-C LiPo DRP (non-boost)"
-Date "2017-06-25"
-Rev "r1"
+Date "2017-07-14"
+Rev "A0"
 Comp "sternlabs"
 Comment1 ""
 Comment2 ""
